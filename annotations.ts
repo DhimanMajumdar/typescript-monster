@@ -11,3 +11,18 @@ console.log(favNumber);
 // Boolean
 let isHard: boolean = true;
 console.log(isHard);
+
+
+// Function Parameter Annotations
+
+function addOne(num: number) {
+    return num + 1;
+}
+const result = addOne(3);
+console.log(result);
+
+// Arrow Functions Annotations
+
+const double = (x: number, y: number) => x * y;
+const res = double(2, 10);
+console.log(res);
